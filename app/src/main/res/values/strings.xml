@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Vatapp</string>
+    <string name="rb_10">10</string>
+    <string name="rb_15">15</string>
+    <string name="rb_20">20</string>
+    <string name="cost_or_total_price">cost or total price</string>
+    <string name="select_var_percentage">Select var percentage</string>
+    <string name="round_up_total">round up total</string>
+    <string name="calculate_vat">calculate vat</string>
+    <string name="totall">total amount :%s</string>
+
+
 </resources>

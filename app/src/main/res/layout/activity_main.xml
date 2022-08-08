@@ -11,16 +11,17 @@
 
 
     <EditText
+        android:id="@+id/number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="cost or total price"
+        android:hint="@string/cost_or_total_price"
         android:inputType="numberDecimal"></EditText>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="16dp"
-        android:text="Select var percentage"
+        android:text="@string/select_var_percentage"
         android:textSize="18sp"
         android:textStyle="bold"></TextView>
 
@@ -34,19 +35,19 @@
             android:id="@+id/rb_vat_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="10" />
+            android:text="@string/rb_10" />
 
         <RadioButton
             android:id="@+id/rb_vat_15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="15" />
+            android:text="@string/rb_15" />
 
         <RadioButton
             android:id="@+id/rb_vat_20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="20" />
+            android:text="@string/rb_20" />
     </RadioGroup>
 
 
@@ -54,19 +55,23 @@
         android:id="@+id/switch_round_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="round up total" />
+        android:text="@string/round_up_total" />
 
     <Button
         android:id="@+id/btn_calculate_vat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/darkblue"
-        android:text="calculate vat" />
+        android:text="@string/calculate_vat" />
 
     <TextView
         android:id="@+id/txt_cost_total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
-        tools:text="@string/app_name"/>
+        android:text="@string/totall"
+
+       />
+
+
 </LinearLayout>
